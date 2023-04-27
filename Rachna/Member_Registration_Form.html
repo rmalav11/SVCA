@@ -1,0 +1,112 @@
+<html>
+
+<body>
+  <div class="container">
+    <h1>Member Registration Form</h1>
+  </div>
+
+  <h2 style="font-size: medium;">Please fill this form to become a member</h2>
+
+  <style>
+    .container {
+      text-align: center;
+      background-color: rgb(39, 181, 173);
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    input[type=text],
+    select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 10%;
+      opacity: 0.9;
+    }
+
+    button:hover {
+      opacity: 1;
+    }
+
+    div {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+  </style>
+
+  <div>
+
+    <form action="https://svca-production.herokuapp.com/react/members/" method="post" onsubmit="myFunction();">
+      <label for="name"> <b>Name</b> </label>
+      <input type="text" id="name" name="name" required autofocus><br><br>
+      <label for="contact_name"><b>Contact Person <br> (if not individual/family)</b></label>
+      <input type="text" id="contact_name" name="contact_name" required><br><br>
+      <label for="phone"><b>Phone Number</b></label>
+      <input type="text" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+      <label for="email"><b>Email Address</b></label>
+      <input type="text" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br><br>
+      <label for="contact_type"><b>Preferred Contact Mode</b></label>
+      <select id="contact_type" name="contact_type">
+        <option value="1">Phone</option>
+        <option value="2">Email</option>
+      </select><br><br>
+      <label for="member_type"><b>Member Type</b></label>
+      <select id="member_type" name="member_type" required>
+        <option value="1">Individual</option>
+        <option value="2">Business</option>
+        <option value="3">Organization</option>
+        <option value="4">Government Agency</option>
+      </select><br><br>
+      <label for="location_type"><b>Location</b></label>
+      <select id="location_type" name="location_type" required>
+        <option value="1"> I directly serve in the outlined area</option>
+        <option value="2">I don't serve directly in the outlined area</option>
+        <option value="3">I am outside the outlined area but still want to be involved</option>
+      </select><br><br>
+      <button id="btn" type="submit" class="btn btn-primary"> Submit </button>
+      <script>
+        function myFunction() {
+          alert("Thank you for registering to become a member! We will get back to you soon.");
+        }
+      </script>
+    </form>
+  </div>
+
+</body>
+
+</html>

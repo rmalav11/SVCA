@@ -1,0 +1,8 @@
+.ant-tabs-tab-btn{
+    max-width: 100%;
+    white-space: normal;
+}
+
+.ant-tabs-content-holder{
+    overflow: scroll;
+}

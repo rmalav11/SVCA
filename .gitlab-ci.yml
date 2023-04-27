@@ -1,0 +1,27 @@
+deploy-job:
+  # Script to run for deploying application to AWS
+  script:
+    - whoami
+
+    # - zip -r svca-html.zip Public/ .gitlab-ci.yml appspec.yml scripts/ README.md
+
+    # - aws s3 cp svca-html.zip $AWS_S3_LOCATION # Uploads the zipfile to S3 and expects the AWS Code Pipeline/Code Deploy to pick up
+  only:
+    changes:
+      - Public/
+      - Public/**/*
+  # requires previous CI stages to succeed in order to execute
+  # when: on_success
+  # stage: deploy
+  # environment: production
+  # cache:
+  #   key: "$CI_BUILD_NAME/$CI_BUILD_REF_NAME"
+  #   untracked: true
+  #   paths:
+  #       - build/
+  # # Applies only to tags matching the regex: ie: v1.0.0-My-App-Release
+  # only:
+  #   - /^v\d+\.\d+\.\d+-.*$/
+  # except:
+  #   - branches
+  #   - triggers

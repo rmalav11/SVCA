@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./signup.css" rel="stylesheet">
+    <title>Sign up</title>
+  </head>
+  <body>
+    
+    <div class="container">
+        <div class="">
+            <h3>Hello <span class="name"></span>, please confirm the following information and finish signing up!</h3>
+            <div class="container">
+                <p><b>Name: </b><span class="name" id="user-name"></span></p>
+                <p><b>Email: </b><span id="user-email"></span></p>
+                <p><b>Phone Number: </b><span id="user-phone"></span></p>
+                <button type="button" class="btn btn-primary">Edit</button>
+            </div>
+        </div>
+        <form>
+            <h1>Account sign up</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <input type="hidden" id="member-id" name="member_id" value="0">
+            <label for="username"><b>Email</b></label>
+            <input id="signup-email" type="text" placeholder="Enter Email" name="email" required readonly>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+        
+            <label for="psw-re-enter"><b>Re-enter Password</b></label>
+            <input type="password" placeholder="Re-enter Password" name="repeatpass" required>
+        
+            <!-- <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label> -->
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+    </div>
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="signup.js"></script>
+  </body>
+</html>

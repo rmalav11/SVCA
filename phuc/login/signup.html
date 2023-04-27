@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="./index/index.css" rel="stylesheet">
+
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div id="logout-div" class="container" style="display: none;">
+        <h2>You have to sign out before sign up for a new account</h2>
+        <button type="button" class="btn btn-danger" onclick="logout();">Log out</button>
+    </div>
+    <div id="signup-div" class="container-md login-div rounded">
+        <h2 class="text-center pb-4">User signup</h2>
+        <form class="login-form" id="login-info" onsubmit="return false;"> 
+            <div class="form-floating mb-3">
+                <input name="username" class="form-control" id="floatingInput" placeholder="username">
+                <label  for="floatingInput">Username</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input name="repeatpass" type="password" class="form-control" id="passwordagain" placeholder="Password">
+                <label for="passwordagain">Reapeat password</label>
+            </div>
+
+            <div class="row">
+                <div class="col form-floating mb-3">
+                    <input name="first_name" class="form-control" id="floatingFirstName" placeholder="first_name">
+                    <label for="floatingFirstName" style="left: 1rem;" >First name</label>
+                </div>
+                <div class="col form-floating mb-3">
+                    <input name="last_name" class="form-control" id="floatinglastName" placeholder="first_name">
+                    <label for="floatinglastName" style="left: 1rem;">Last name</label>
+                </div>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input name="email" type="email" class="form-control" id="email" placeholder="Password">
+                <label for="email">Email</label>
+            </div>
+
+            
+            <div class="form-floating text-center">
+                <button class="btn btn-primary" onclick="">Sign up</button>
+            </div>
+            
+        </form>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./index/platform.js"></script>
+    <script src="./signup/signup.js"></script>
+</body>
+</html>

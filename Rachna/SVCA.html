@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title> SVCA </title>
+</head>
+
+<body>
+    <h1>SPOKANE VALLEY COMMUNITY ADVOCATES</h1>
+    <h2>Renewing Hope, Rebuilding Lives</h2>
+    <h3>(509) 312-7869</h3>
+    Mission: Supplying people with the power (resources) to raise themselves<br>up (self-advocacy) while renewing hope
+    and opportunity (mutual aid).
+
+    <img id="image" src="picture.jpg" border="4" align="right" height="85%" width="60%">
+    <p></p>
+
+    <script>
+
+        var imageSources = ["wehelp_image.jpg", "Help.jpg", "Hands.jpg", "here_help.jpg", "picture.jpg"]
+
+        var index = 0;
+        setInterval(function () {
+            if (index === imageSources.length) {
+                index = 0;
+            }
+            document.getElementById("image").src = imageSources[index];
+            index++;
+        }, 2000);
+
+    </script>
+    <p>
+        To become a member please click the button below: <br><br>
+        <a href="Member_Registration_Form.html">
+            <button>Member Registration</button>
+        </a>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+S3 Bucket Name: codedeploylightsailsvca
+
+Access Key ID: AKIAX4RKQOYSPMXVZ64B
+
+Secret Key: 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
+
+IAM User ARN: arn:aws:iam::542328780324:user/LightSailCodeDeployUser
+
+aws deploy register-on-premises-instance --instance-name Amazon_Linux_2-1 --iam-user-arn arn:aws:iam::542328780324:user/LightSailCodeDeployUser --region us-west-2
+
+--Ubuntu user
+KeyID2: AKIAX4RKQOYSA3GXJAM7 
+Secret2: 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
+IAM User: arn:aws:iam::542328780324:user/ubuntu-codedeploy
+aws deploy register-on-premises-instance --instance-name Ubuntu-1 --iam-user-arn arn:aws:iam::542328780324:user/ubuntu-codedeploy --region us-west-2 --profile dornsife
+
+-- Gitlab Access
+Access ID: AKIAX4RKQOYSJRNOOTYBSe
+Secret Key: +ySUvSro562vdzR9iifFcfi2qJwAsa/CFpa03qxp
+ARN: arn:aws:iam::542328780324:user/whitgit-user
+
+S3: arn:aws:s3:::whitgit-svca-html
+
+tagname:
+Name: svca-api

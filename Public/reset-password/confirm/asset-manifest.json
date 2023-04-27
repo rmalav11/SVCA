@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reset-password/confirm/static/css/main.e4a687fb.chunk.css",
+    "main.js": "/reset-password/confirm/static/js/main.dd14c617.chunk.js",
+    "main.js.map": "/reset-password/confirm/static/js/main.dd14c617.chunk.js.map",
+    "runtime-main.js": "/reset-password/confirm/static/js/runtime-main.3907acca.js",
+    "runtime-main.js.map": "/reset-password/confirm/static/js/runtime-main.3907acca.js.map",
+    "static/css/2.dbb450e1.chunk.css": "/reset-password/confirm/static/css/2.dbb450e1.chunk.css",
+    "static/js/2.b37e3146.chunk.js": "/reset-password/confirm/static/js/2.b37e3146.chunk.js",
+    "static/js/2.b37e3146.chunk.js.map": "/reset-password/confirm/static/js/2.b37e3146.chunk.js.map",
+    "static/js/3.a477f66a.chunk.js": "/reset-password/confirm/static/js/3.a477f66a.chunk.js",
+    "static/js/3.a477f66a.chunk.js.map": "/reset-password/confirm/static/js/3.a477f66a.chunk.js.map",
+    "index.html": "/reset-password/confirm/index.html",
+    "static/css/2.dbb450e1.chunk.css.map": "/reset-password/confirm/static/css/2.dbb450e1.chunk.css.map",
+    "static/css/main.e4a687fb.chunk.css.map": "/reset-password/confirm/static/css/main.e4a687fb.chunk.css.map",
+    "static/js/2.b37e3146.chunk.js.LICENSE.txt": "/reset-password/confirm/static/js/2.b37e3146.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3907acca.js",
+    "static/css/2.dbb450e1.chunk.css",
+    "static/js/2.b37e3146.chunk.js",
+    "static/css/main.e4a687fb.chunk.css",
+    "static/js/main.dd14c617.chunk.js"
+  ]
+}

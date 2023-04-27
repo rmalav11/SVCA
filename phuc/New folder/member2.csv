@@ -1,0 +1,21 @@
+"id";"name";"contact_name";"phone";"email";"contact_type";"member_type";"location_type";"accepted"
+1;"MeoRung-edited";"";"123456";"asdf@asdf.com";1;1;1;1
+3;"MeoRung2";"";"1234562";"test@email.com1";-1;-1;-1;1
+4;"test2";"";"09123";"asdf@asdf.com";1;1;1;0
+5;"test2";"";"09123";"asdf@asdf.com";1;1;1;0
+6;"abc";"";"9876";"asdf@asdf.com";1;1;1;0
+7;"Rachna Malav";"Govind Malav";"78905446676";"rmalav23@my.whitworth.edu";1;1;1;0
+8;"abc";"";"9876";"asdf@asdf.com";1;1;1;0
+9;"Priya Roy";"Nalini Seth";"78905446676";"kjkhbvul";2;2;1;0
+10;"Rachna";"Nalini Seth";"78905446676";"kjkhbvul";2;1;1;0
+11;"Rachna";"Nalini Seth";"78905446676";"kjkhbvul";2;1;1;0
+12;"etbsb";"vdb";"5091007310";"rahuljain@gmail.com";1;1;1;0
+13;"eeee";"vdb";"5091007310";"rahuljain@gmail.com";1;1;1;0
+14;"eeee";"vdb";"5091007310";"rahuljain@gmail.com";1;1;1;0
+15;"etbsb";"vdb";"5091007310";"edbackell@gmail.com";1;1;1;0
+16;"eeee";"vdb";"5091007310";"rahuljain@gmail.com";1;1;1;0
+17;"nmnbv";"vdb";"5091007310";"edbackell@gmail.com";2;4;3;0
+18;"uktdk";"i;ovo";"5091007310";"edbackell@gmail.com";1;1;1;0
+19;"Rachna Malav";"vdb";"5091007310";"rahuljain@gmail.com";1;1;1;0
+20;"etbsb";"i;ovo";"5091007310";"rmalav23@my.whitworth.edu";1;1;1;0
+21;"Rachna Malav";"Govind Malav";"5091007310";"malavrachna@gmail.com";1;1;1;0

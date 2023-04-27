@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>SVCA Homepage</title>
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Bowlby One SC' rel='stylesheet'>
+	<link href="style.css" rel="stylesheet">
+
+  <link rel="icon" href="favicon (1).ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <script src="https://kit.fontawesome.com/b618a007ab.js" crossorigin="anonymous"></script>
+    
+</head>
+
+
+
+
+<body>
+		<nav>
+			<header>
+
+          <ul class="topnav" id="dropdownClick" >
+					<li><a class="active" href="file:///Users/alavish/svca/Anthony/svcaWebsite/index.html#home">Home</a></li>
+					<li><a href="file:///Users/alavish/svca/Anthony/svcaWebsite/aboutUs.html#aboutus">About Us</a></li>
+					<li><a href="file:///Users/alavish/svca/Anthony/svcaWebsite/contactList.html#aboutus">Contact List</a></li>
+          <li><a href="file:///Users/alavish/svca/Anthony/svcaWebsite/requestForm.html#requestform">Request</a></li>
+					<li><a href="file:///Users/alavish/svca/Anthony/svcaWebsite/Member_Registration_Form.html#requestform">Member Registration</a></li>
+					<li><a href="file:///Users/alavish/svca/Anthony/svcaWebsite/events.html#requestform">Events</a></li>
+					<li class = "dropdownIcon"><a href="javascript:void(0);"
+					onclick="dropdownMenu()">&#9776;</a></li>
+				</ul>
+			</header>
+	</nav>
+
+  <div class="banner-area">
+    <h2>Spokane Valley Community Advocates</h2>
+  </div>
+
+
+
+
+  <div class="content-area">
+    <h2> Membership Registration Form </h2>
+    <hr>
+
+
+    <style>
+      input[type=text],
+      select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+  
+      input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+  
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+
+  
+      
+    </style>
+  
+    <div class = "form">
+  
+      <form action="https://svca-production.herokuapp.com/react/members/" method="post">
+        <label for="name"> <b>Name:</b> </label>
+        <input type="text" id="name" name="name" required autofocus><br><br>
+        <label for="contact_name"><b>Contact Person <br> (if not individual/family):</b></label>
+        <input type="text" id="contact_name" name="contact_name" required><br><br>
+        <label for="phone"><b>Phone Number:</b></label>
+        <input type="text" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+        <label for="email"><b>Email Address:</b></label>
+        <input type="text" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br><br>
+        <label for="contact_type"><b>Preferred Contact Mode:</b></label>
+        <select id="contact_type" name="contact_type">
+          <option value="1">Phone</option>
+          <option value="2">Email</option>
+        </select><br><br>
+        <label for="member_type"><b>Member Type:</b></label>
+        <select id="member_type" name="member_type" required>
+          <option value="1">Individual</option>
+          <option value="2">Business</option>
+          <option value="3">Organization</option>
+          <option value="4">Government Agency</option>
+        </select><br><br>
+        <label for="location_type"><b>Location:</b></label>
+        <select id="location_type" name="location_type" required>
+          <option value="1"> I directly serve in the outlined area</option>
+          <option value="2">I don't serve directly in the outlined area</option>
+          <option value="3">I am outside the outlined area but still want to be involved</option>
+        </select><br><br>
+        <button id="btn" type="submit" onclick=myFunction() class="btn btn-primary"> <b>Submit</b> </button>
+        <script>
+          function myFunction() {
+            alert("Thank you for registering to become a member! We will get back to you soon.");
+          }
+        </script>
+      </form>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+      <a class="footer-link" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+      <a class="footer-link" href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+      <a class="footer-link" href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
+    </div>
+    
+  </div>
+
+
+  
+
+  <script> 
+    function dropdownMenu() {
+    var x = document.getElementById("dropdownClick");
+    if (x.className === "topnav") {
+    x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+    }
+    </script>
+    
+    
+    </body>
+    
+    </html>
+
+</body>
+
+</html>

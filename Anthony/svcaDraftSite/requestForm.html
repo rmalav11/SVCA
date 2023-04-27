@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>SVCA Homepage</title>
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Bowlby One SC' rel='stylesheet'>
+
+	
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- fontawasome -->
+    
+    <script src="https://kit.fontawesome.com/b618a007ab.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+   
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" i ntegrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- css link -->
+	
+	<link href="style.css" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+	
+		
+		<nav>
+			<header>
+
+                <ul class="topnav" id="dropdownClick" >
+					<li><a class="active" href="file:///Users/alavish/svca/Anthony/svcaWebsite/index.html#home">Home</a></li>
+					<li><a href="file:///Users/alavish/svca/Anthony/svcaWebsite/aboutUs.html#aboutus">About Us</a></li>
+					<li><a href="file:///Users/alavish/svca/Anthony/svcaWebsite/contactList.html#aboutus">Contact List</a></li>
+					<li><a href="file:///Users/alavish/svca/Anthony/svcaWebsite/requestForm.html#requestform">Request</a></li>
+					<li><a href="file:///Users/alavish/svca/Anthony/svcaWebsite/Member_Registration_Form.html#requestform">Member Registration</a></li>
+					<li><a href="file:///Users/alavish/svca/Anthony/svcaWebsite/events.html#requestform">Events</a></li>
+					<li class = "dropdownIcon"><a href="javascript:void(0);"
+					onclick="dropdownMenu()">&#9776;</a></li>
+					
+					
+				</ul>
+			</header>
+		
+	</nav>
+
+	
+
+	<div class="banner-area">
+			<h2>Spokane Valley Community Advocates</h2>
+	</div>
+	
+		<div class="content-area">
+				<h2>Request Form </h2>
+				<hr>
+
+				<div class="container">
+                    <form action="action_page.php">
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="country">Country</label>
+                        </div>
+                        <div class="col-75">
+                          <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="subject">Subject</label>
+                        </div>
+                        <div class="col-75">
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <input type="submit" value="Submit">
+                      </div>
+                    </form>
+                  </div>
+
+		
+					<div class="bottom-container">
+						<a class="footer-link" href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+						<a class="footer-link" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+						<a class="footer-link" href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+						<a class="footer-link" href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
+					</div>
+
+		</div>
+
+	
+
+
+<script> 
+	function dropdownMenu() {
+		var x = document.getElementById("dropdownClick");
+		if (x.className === "topnav") {
+		x.className += " responsive";
+		} else {
+		  x.className = "topnav";
+		}
+	}
+		</script>
+	  
+
+	</body>
+
+</html>
+	
+

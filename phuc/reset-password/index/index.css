@@ -1,0 +1,29 @@
+body{
+    background-color: white;
+    min-height: 100%;
+    color: black;
+}
+
+.reset-card{
+    margin: auto;
+    padding: 2rem;
+    background-color: #F6F8FA;
+    max-width: 720px;
+}
+
+/* .btn-custom{
+    background-color: #57595D;
+    color: white;
+} */
+
+/* .custom-input-background{
+    background-color: #1F2228;
+    
+} */
+
+.clearfix::after { 
+    content: " ";
+    display: block; 
+    height: 0; 
+    clear: both;
+ }

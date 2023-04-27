@@ -1,0 +1,410 @@
+body {
+    line-height: 2;
+    margin: 0;
+	text-align: center;
+    
+  
+}
+
+
+header {
+    
+	height: 100px;
+	background:linear-gradient(to left, rgb(39,181,173),rgba(39, 181, 174, 0.471));
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+   
+    
+    
+}
+
+
+nav {
+  width:100%;
+  margin:0;
+}
+
+
+nav ul{
+    
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+    
+   
+    }
+  
+
+
+  /* Style the links inside the navigation bar */
+  ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height:16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color:white;
+    
+
+  }
+  
+
+
+  /* Change the color of links on hover */
+  ul.topnav li a:hover {
+    background-color: #ddd;
+    color: rgb(39, 181, 173);
+  }
+  
+  ul.topnav li.dropdownIcon{
+    
+      display: none;
+      
+  }
+  /* Hide the link that should open and close the topnav on small screens */
+  
+
+
+#section-1-gradient {
+    background-image: linear-gradient(to bottom right, rgb(39, 181, 173), rgba(39, 181, 174, 0.608));
+    background:rgb(39, 181, 173);
+    background: -webkit-linear-gradient(rgb(39,181,173), rgba(39,181,174,0.608));
+
+}
+
+
+
+.banner-area {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: -50px;
+	background-image: URL(SVCApic.jpeg);
+	-webkit-background-size: cover;
+	background-size: contain;
+	background-position: center center;
+}
+
+.banner-area h2 {
+    width: 100%;
+	padding-top: 10%;
+	font-size: 50px;
+	font-family: 'Bowlby One SC';
+	text-transform: uppercase;
+    text-shadow: 100px;
+	color: rgb(39, 181, 173);
+	background-color: black;
+   
+}
+
+.content-area {
+	width: 100%;
+    height:100%;
+	position:relative;
+	top: 450px;
+	background: white;
+	height: 1500px;
+    border-radius: 7px;
+}
+
+.content-area h2 {
+    width:100%;
+	font-family: 'Baloo Tammudu 2', cursive;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+    width: 100%;
+    position: relative;
+	padding: 2% 0px;
+	font-family: 'Baloo Tammudu 2', cursive;
+	line-height: 30px;
+}
+
+.top-img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* horizontal bar */
+
+hr {
+    border-color: black;
+}
+
+.top-text {
+    font-family: 'Montserrat-light';
+    margin: 20px auto;
+    font-size: large;
+}
+
+.middle-text {
+    font-size: 1.5rem;
+}
+
+.bottom-text {
+    font-size: 1.5rem;
+}
+
+.office-img {
+    height: 100%;
+    width: 100%;
+}
+
+.middle-container {
+    margin: 10% auto;
+}
+
+.bottom-container {
+    padding: 50px 0px 20px 0px;
+    background-color: #66BFBF;
+    text-align: center;
+}
+
+.footer-link {
+    margin: 0px 10px;
+    font-size: 2rem;
+}
+
+.last-para {
+    margin-top: 10px;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+   
+/* Styling section, giving background
+    image and dimensions */
+section {
+    width: 100%;
+    height: 100%;
+}
+   
+/* Styling the left floatig section */
+section .leftBox {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+   
+/* Styling the background of 
+    left floatig section */
+section .leftBox .content {
+    color: #fff;
+    background: rgb(0, 0, 0);
+    padding: 40px;
+    transition: .5s;
+}
+   
+/* Styling the hover effect  
+    of left floatig section */
+section .leftBox .content:hover {
+    background: rgb(39, 181, 173);
+}
+   
+/* Styling the header of left 
+    floating section */
+section .leftBox .content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+   
+/* Styling the paragraph of 
+    left floating section */
+section .leftBox .content p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+   
+/* Styling the three events section */
+section .events {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 0);
+    float: right;
+    box-sizing: border-box;
+}
+   
+/* Styling the links of 
+the events section */
+section .events ul {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+   
+/* Styling the lists of the event section */
+section .events ul li {
+    text-align: center;
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 200px;
+    margin: 15px 0;
+    
+}
+   
+/* Styling the time class of events section */
+section .events ul li .time {
+    position: relative;
+    padding: 20px;
+    background: rgb(39, 181, 173);
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+   
+/* Styling the hover effect
+    of events section */
+section .events ul li:hover .time {
+    background: #e91e63;
+}
+   
+/* Styling the header of time 
+    class of events section */
+section .events ul li .time h2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+}
+   
+/* Styling the texts of time 
+class of events section */
+section .events ul li .time h2 span {
+    font-size: 32px;
+}
+   
+/* Styling the details 
+class of events section */
+section .events ul li .details {
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 30%;
+    float: left;
+}
+   
+/* Styling the header of the 
+details class of events section */
+section .events ul li .details h3 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+   
+/* Styling the lists of details 
+class of events section */
+section .events ul li .details p {
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 10px;
+}
+   
+/* Styling the links of details
+class of events section */
+section .events ul li .details a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1.5px solid #262626;
+    margin-top: 8px;
+    font-size: 18px;
+    transition: .5s;
+    
+}
+   
+/* Styling the details class's hover effect */
+section .events ul li .details a:hover {
+    background: #e91e63;
+    color: #fff;
+    border-color: #e91e63;
+/* MOBILE STYLING*/
+
+/* Detetcts what you are using as user , phone desktop etc. */
+
+@media screen and (max-width:680px){
+    ul.topnav li:not(:nth-child(1)) {
+        display:none;
+    }
+
+
+    ul.topnav li.dropdownIcon {
+        display:block;
+        float:right;
+       
+
+    }
+
+    ul.topnav.responsive li.dropdownIcon{
+        position:absolute;
+        top: 0;
+        right: 0;
+        
+        
+    }
+
+    ul.topnav.responsive li a{
+        float: none;
+        display: block;
+        text-decoration: none;
+        background:linear-gradient(to right, rgb(39,181,173),rgba(39, 181, 174, 0.471));
+    }
+
+    ul.topnav.responsive {
+        position:relative;
+    }
+
+    ul.topnav.responsive li{
+        /* lines everything up together in a row */
+        display:inline;
+        float: none;
+        
+    }
+
+    ul.topnav.responsive li a{
+        display:block;
+        text-align: left;
+      
+    
+    }
+
+    .banner-area h2 {
+        padding-top: 20%;
+        
+    }
+    }
+}

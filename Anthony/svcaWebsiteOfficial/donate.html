@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Spokane Valley Community Advocates</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet" /> <!-- https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans -->
+    <link href="css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
+    <link href="slick/slick.css" rel="stylesheet" /> <!-- https://kenwheeler.github.io/slick/ -->
+    <link href="slick/slick-theme.css" rel="stylesheet" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com -->
+	<link href="css/lavish-new-vision.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!-- Page Header -->
+    <div class="container-fluid">
+        <div class="tm-site-header">
+            <div class="row">
+                <div class="col-12 tm-site-header-col">
+                    <div class="tm-site-header-left">
+                        <h1 class="tm-site-name"> <img src="img/svcaLogoNavbar.png" class = "navLogo" alt="Logo"></h1>
+                    </div>
+                    <div class="tm-site-header-right tm-menu-container-outer">
+                        
+                        <!--Navbar-->
+                        <nav class="navbar navbar-expand-lg">
+                        
+                          <!-- Collapse button -->
+                          <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                            aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                                class="fas fa-bars fa-1x"></i></span></button>
+                        
+                          <!-- Collapsible content -->
+                          <div class="collapse navbar-collapse tm-nav" id="navbarSupportedContent1">
+                        
+                            <!-- Links -->
+                            <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                <a class="nav-link tm-nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link tm-nav-link" href="aboutus.html">About Us</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link tm-nav-link" href="resources.html">Resources</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link tm-nav-link" href="contact.html">Contact</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link tm-nav-link" href="react.html">R.E.A.C.T</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link tm-nav-link" href="donate.html">Donate</a>
+                              </li>
+                            </ul>
+                            <!-- Links -->
+                        
+                          </div>
+                          <!-- Collapsible content -->
+                        
+                        </nav>
+                        <!--/.Navbar-->
+                    </div>
+                </div>
+            </div>
+            <img src="img/svcaBanner.jpg" class="img-fluid" alt="Placeholder image">
+
+<!--Supporting scripts. First jQuery, then popper, then Bootstrap JS--> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+<div class="container theme-background-white main-body">
+    <div class="col-md-12">
+      <div class="row donate-bar">  
+        <div class="col-md-4 theme-blue">
+          GIVE WHERE NEEDED MOST
+        </div>
+        <div class="col-md-8">
+          <ul class="nav navbar-nav navbar-left donate-buttons" id="donate-buttons">
+            <li><a href="#">
+              <button class="btn-blue active" data-dollars='25' data-impact="Covers housing or counseling services for one person">
+                $25
+              </button>
+            </a></li>
+            <li><a href="#">
+              <button class="btn-blue" data-dollars='50' data-impact="Covers housing or counseling services for two people">
+                $50
+              </button>
+            </a></li>
+            <li><a href="#">
+              <button class="btn-blue" data-dollars='100' data-impact="Covers housing or counseling services for four people">
+                $100
+              </button>
+            </a></li>
+            <li><a href="#">
+              <button class="btn-blue" data-dollars='500' data-impact="Covers housing or counseling services for twenty people">
+                $500
+              </button>
+            </a></li>
+            <li id="other"><a href="#">
+              <button class="btn-blue-other" data-dollars='other' data-impact="Thank you!">
+                OTHER
+              </button>
+            </a></li>
+            <li id="other-input">
+              <span>$</span>
+             <input data-impact="That’s great. Thank you!">
+            </li>
+            <li><a href="#">
+              <button class="btn-green" data-toggle="modal" data-target="#myModal">
+                DONATE
+              </button>
+            </a></li>
+            <li style="display: none;"><a href="#">
+              LEARN MORE<i class="fa fa-chevron-right margin-left"></i>
+            </a></li>
+          </ul>
+          <p class="impact">
+            Covers housing or counseling services for one person
+          </p>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header well text-center theme-background-blue">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h2>You’re Donating:</h2>
+                  <h1 style="font-size: 5.5em; margin-top: 0;">$<span id="price"></span></h1>
+                  <em>Thank you!</em>
+                </div>
+                <div class="modal-body">
+                  <div class="row">  
+                    <section class="col-md-12">
+                      <form>
+                        <fieldset class="col-md-6">
+                          <legend>
+                            Your personal info
+                          </legend>
+                          <label>Your Name</label>
+                          <input type="string" class="form-control">
+                          <label>Your email</label>
+                          <input type="email" class="form-control">
+                          <label>Address</label>
+                          <input type="email" class="form-control">
+                          <label>City, State, Zip Code</label>
+                          <input type="email" class="form-control">
+                        </fieldset>
+                        <fieldset class="col-md-6">
+                          <legend>
+                            Credit Card Information
+                          </legend>
+                          <label for="card-number">Credit Card Number</label>
+                          <input placeholder="1234 5678 9012 3456" pattern="[0-9]*" type="text" class="form-control card-number" id="card-number">
+                          <label for="card-number">Expiration Date</label>
+                          <input placeholder="MM/YY" pattern="[0-9]*" type="text" class="form-control card-expiration" id="card-expiration">
+                          <label for="card-number">CVV Number</label>
+                          <input placeholder="CVV" pattern="[0-9]*" type="text" class="form-control card-cvv" id="card-cvv">
+                          <label for="card-number">Billing Zip Code</label>
+                          <input placeholder="ZIP" pattern="[0-9]*" type="text" class="form-control card-zip" id="card-zip">
+                        </fieldset>
+                      </form>
+                    </section>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">BACK</button>
+                  <button type="button" class="btn-green">CONTINUE</button>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+        </div>
+      </div><!--/.donate-bar-->
+    </div><!-- /.col-md-12 -->
+    <footer id="footer" class="container-fluid p-5 bg-dark">
+
+        <div class="row">
+            <div class="col text-center">
+                <a href="#"><i class="fab fa-facebook fa-3x m-3"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-3x m-3"></i></a>
+                    <a href="#"><i class="fab fa-instagram fa-3x m-3"></i></a>
+                <h4 class="text-capitalize text-white">
+                    &copy; Copyrights By Whitworth  CS Department
+                </h4>
+            </div>
+        </div>
+
+    </footer>
+            
+        </main>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lavish-script.js"></script>

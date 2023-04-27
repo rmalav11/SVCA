@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/admin/site-editor/static/css/main.8bd0041c.chunk.css",
+    "main.js": "/admin/site-editor/static/js/main.20192326.chunk.js",
+    "main.js.map": "/admin/site-editor/static/js/main.20192326.chunk.js.map",
+    "runtime-main.js": "/admin/site-editor/static/js/runtime-main.a7aacbb9.js",
+    "runtime-main.js.map": "/admin/site-editor/static/js/runtime-main.a7aacbb9.js.map",
+    "static/css/2.4e278eba.chunk.css": "/admin/site-editor/static/css/2.4e278eba.chunk.css",
+    "static/js/2.137d922d.chunk.js": "/admin/site-editor/static/js/2.137d922d.chunk.js",
+    "static/js/2.137d922d.chunk.js.map": "/admin/site-editor/static/js/2.137d922d.chunk.js.map",
+    "static/js/3.dc16349c.chunk.js": "/admin/site-editor/static/js/3.dc16349c.chunk.js",
+    "static/js/3.dc16349c.chunk.js.map": "/admin/site-editor/static/js/3.dc16349c.chunk.js.map",
+    "index.html": "/admin/site-editor/index.html",
+    "static/css/2.4e278eba.chunk.css.map": "/admin/site-editor/static/css/2.4e278eba.chunk.css.map",
+    "static/css/main.8bd0041c.chunk.css.map": "/admin/site-editor/static/css/main.8bd0041c.chunk.css.map",
+    "static/js/2.137d922d.chunk.js.LICENSE.txt": "/admin/site-editor/static/js/2.137d922d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7aacbb9.js",
+    "static/css/2.4e278eba.chunk.css",
+    "static/js/2.137d922d.chunk.js",
+    "static/css/main.8bd0041c.chunk.css",
+    "static/js/main.20192326.chunk.js"
+  ]
+}

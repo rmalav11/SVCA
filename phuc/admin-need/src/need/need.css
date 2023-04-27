@@ -1,0 +1,23 @@
+@media (min-width: 770px){
+    .custom-div-table {
+        column-count:2;
+        -moz-column-count:2;
+        -webkit-column-count:2;
+    }
+}
+
+.custom-div-table > table {
+    margin-bottom: 0px;
+}
+
+tr > td:first-child{
+    color: gray;
+}
+
+tr > td:nth-child(2){
+    font-weight: 500;
+}
+
+.div-card{
+    background-color: white;
+}

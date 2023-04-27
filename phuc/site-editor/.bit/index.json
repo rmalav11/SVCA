@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/navbar"
+      },
+      "isSymlink": true,
+      "hash": "1389f29ec6a2a02e4e15df2560c4174f55b7d121"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "ui/sidebar"
+      },
+      "isSymlink": true,
+      "hash": "b48d9808dad87bf23b1fe89871f141528cc87801"
+    },
+    {
+      "id": {
+        "scope": null,
+        "name": "utilities/login"
+      },
+      "isSymlink": true,
+      "hash": "4469aeaf5a0fe8ffa89622009ef642313d38cb0d"
+    },
+    {
+      "id": {
+        "scope": "whitworth.svca-website",
+        "name": "ui/navbar"
+      },
+      "isSymlink": false,
+      "hash": "53caf0915bf0bd09d71c750de0c0986a7ba1e662"
+    },
+    {
+      "id": {
+        "scope": "whitworth.svca-website",
+        "name": "utilities/login"
+      },
+      "isSymlink": false,
+      "hash": "8c70ba05a2fd10d2a56bc4bb952b4ac34079ef27"
+    },
+    {
+      "id": {
+        "scope": "whitworth.svca-website",
+        "name": "ui/sidebar"
+      },
+      "isSymlink": false,
+      "hash": "971961ae4f52641e7ad86a3a3dcf73165ba18592"
+    }
+  ],
+  "lanes": []
+}

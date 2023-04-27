@@ -1,0 +1,23 @@
+[
+  {
+    "id": {
+      "scope": "whitworth.svca-website",
+      "name": "ui/navbar"
+    },
+    "head": "0752d2c17c03fa62a07b60f02d6f11829d492e17"
+  },
+  {
+    "id": {
+      "scope": "whitworth.svca-website",
+      "name": "ui/sidebar"
+    },
+    "head": "5d6b43a01f4b23f30ab85f481d87ad7385cb8b0e"
+  },
+  {
+    "id": {
+      "scope": "whitworth.svca-website",
+      "name": "utilities/login"
+    },
+    "head": "19c574acebfa8d2d1d44aaa634a1a036a051cdc7"
+  }
+]

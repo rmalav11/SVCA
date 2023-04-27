@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Spokane Valley Community Advocates</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet" /> <!-- https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans -->
+    <link href="css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
+    <link href="slick/slick.css" rel="stylesheet" /> <!-- https://kenwheeler.github.io/slick/ -->
+    <link href="slick/slick-theme.css" rel="stylesheet" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com -->
+	<link href="css/lavish-new-vision.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!-- Page Header -->
+    <div class="container-fluid">
+        <div class="tm-site-header">
+            <div class="row">
+                <div class="col-12 tm-site-header-col">
+                    <div class="tm-site-header-left">
+                        <h1 class="tm-site-name"> <img src="img/svcaLogoNavbar.png" class = "navLogo" alt="Logo"></h1>
+                    </div>
+                    <div class="tm-site-header-right tm-menu-container-outer">
+                        
+                        <!--Navbar-->
+                        <nav class="navbar navbar-expand-lg">
+                        
+                          <!-- Collapse button -->
+                          <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                            aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                                class="fas fa-bars fa-1x"></i></span>
+                                <span class="navbar-toggler-icon"></span>
+                                
+                              </button>
+                        
+                          <!-- Collapsible content -->
+                          <div class="collapse navbar-collapse tm-nav" id="navbarSupportedContent1">
+                        
+                            <!-- Links -->
+                            <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                <a class="nav-link tm-nav-link" href="index.html">Home </a>
+                              </li>
+                              <li class = "nav-item dropdown">
+                                <a class="nav-link dropdown-toggle tm-nav-link" href="resources.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                                  About Us</a>
+
+                                
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="aboutus.html">Who We Are</a>
+                                  <a class="dropdown-item" href="contact.html">Contact Us</a>
+                                  <a class="dropdown-item" href="#">Blog</a>
+                                </div>
+                              </li>
+
+
+                              <li class = "nav-item dropdown">
+                                <a class="nav-link dropdown-toggle tm-nav-link" href="resources.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                                  Resources</a>
+
+                                
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="resources.html">Aid Resources</a>
+                                  <a class="dropdown-item" href="requestform.html">Request Form</a>
+                                  <a class="dropdown-item" href="#">Volunteering</a>
+                                </div>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link tm-nav-link" href="react.html">R.E.A.C.T</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link tm-nav-link" href="donate.html">Donate</a>
+                              </li>
+                            </ul>
+                            
+                              <ul class="nav navbar-nav navbar-right">
+                              <li class = "nav-item">
+                                <a class="nav-link tm-nav-link" href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                                <li class = "nav-item">
+                                <a class ="nav-link tm-nav-link" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            </ul>
+                            <!-- Links -->
+                        
+                          </div>
+                          <!-- Collapsible content -->
+                        
+                        </nav>
+                        <!--/.Navbar-->
+                    </div>
+                </div>
+            </div>
+            <img src="img/svcaBanner.jpg" class="img-fluid" alt="Placeholder image">
+
+<!--Supporting scripts. First jQuery, then popper, then Bootstrap JS--> 
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="slick/slick.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/heem-script.js"></script>
+<script src="content/js/jquery.min.js"></script>
+<script src="content/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function () {
+    $('.dropdown-toggle').dropdown();
+});
+</script>
+        </div>
+
+
+  <h2 style="font-size: medium;">Please fill this form to become a member</h2>
+
+  <style>
+
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    input[type=text],
+    select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 10%;
+      opacity: 0.9;
+    }
+
+    button:hover {
+      opacity: 1;
+    }
+
+  </style>
+
+  <div>
+
+    <form action="https://svca-production.herokuapp.com/react/members/" method="post" onsubmit="myFunction();">
+      <label for="name"> <b>Name</b> </label>
+      <input type="text" id="name" name="name" required autofocus><br><br>
+      <label for="contact_name"><b>Contact Person <br> (if not individual/family)</b></label>
+      <input type="text" id="contact_name" name="contact_name" required><br><br>
+      <label for="phone"><b>Phone Number</b></label>
+      <input type="text" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+      <label for="email"><b>Email Address</b></label>
+      <input type="text" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br><br>
+      <label for="contact_type"><b>Preferred Contact Mode</b></label>
+      <select id="contact_type" name="contact_type">
+        <option value="1">Phone</option>
+        <option value="2">Email</option>
+      </select><br><br>
+      <label for="member_type"><b>Member Type</b></label>
+      <select id="member_type" name="member_type" required>
+        <option value="1">Individual</option>
+        <option value="2">Business</option>
+        <option value="3">Organization</option>
+        <option value="4">Government Agency</option>
+      </select><br><br>
+      <label for="location_type"><b>Location</b></label>
+      <select id="location_type" name="location_type" required>
+        <option value="1"> I directly serve in the outlined area</option>
+        <option value="2">I don't serve directly in the outlined area</option>
+        <option value="3">I am outside the outlined area but still want to be involved</option>
+      </select><br><br>
+      <button id="btn" type="submit" class="btn btn-primary"> Submit </button>
+      <script>
+        function myFunction() {
+          alert("Thank you for registering to become a member! We will get back to you soon.");
+        }
+      </script>
+    </form>
+  </div>
+
+</body>
+
+</html>

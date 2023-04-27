@@ -1,0 +1,6 @@
+S3 Bucket Name:
+Access Key ID:
+Secret Key:
+IAM User ARN:
+
+Cloudflare token: jSF5-ySfnO-WMMHgKOpFOzTRXD-cqOdQo4Omt-87
